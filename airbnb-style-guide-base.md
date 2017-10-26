@@ -814,7 +814,7 @@ const itemHeight = (item) => {
   const { height, largeSize, smallSize } = item;
   return height > 256 ? largeSize : smallSize;
 ```
-###类和构造函数 Classes & Constructors
+### 类和构造函数 Classes & Constructors
 
 - 使用class，避免直接操作prototype
 > why?class 语法更简洁，更易懂
