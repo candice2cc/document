@@ -30,7 +30,7 @@ bar[0] = 9;
 
 console.log(foo[0], bar[0]); // => 9, 9
 ```
-###引用References
+### 引用References
 
 - 尽量使用const，避免使用var。eslint: [prefer-const](http://eslint.org/docs/rules/prefer-const.html),[no-const-assign](http://eslint.org/docs/rules/no-const-assign.html)
 ```javascript
@@ -69,7 +69,7 @@ if (true) {
 console.log(a); // ReferenceError
 console.log(b); // ReferenceError
 ```
-###对象Objects
+### 对象Objects
 - 使用字面量方式创建对象。eslint: [no-new-object](http://eslint.org/docs/rules/no-new-object.html)
 ```javascript
 // bad
